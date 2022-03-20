@@ -3,6 +3,10 @@ from logging import debug
 from flask import Flask,render_template,request
 import pickle
 import numpy as np
+from logging import debug
+from flask import Flask,render_template,request
+import pickle
+import numpy as np
 
 
 model = pickle.load(open('stud.pkl','rb'))
